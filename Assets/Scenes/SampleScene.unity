@@ -329,6 +329,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f835b481d1ae3a4daa4df18f6c858a6, type: 3}
+--- !u!1 &524634663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5509663684495618546, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+  m_PrefabInstance: {fileID: 3711244533456815608}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &612762148
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,6 +633,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1655431869790703916, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.352
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737665870733904448, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1960849278780839412, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -681,16 +694,41 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3905291167413427664, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: scale
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3905291167413427664, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 524634663}
+    - target: {fileID: 3905291167413427664, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219859789866779556, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972521606322136080, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972521606322136080, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: m_LocalPosition.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7025639940891883353, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8873862227574375699, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 916074454413901835, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+    - {fileID: 4116898795081687692, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
