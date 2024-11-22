@@ -14,10 +14,12 @@ public class PlayerInputController : MonoBehaviour
     }
     public void Update()
     {
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+        float x = Input.GetAxis("Vertical");
+        float z = Input.GetAxis("Horizontal");
 
-        Vector3 movement = new Vector3(x, 0, z);
+        Vector3 movement = this.gameObject.transform.forward * x + this.gameObject.transform.right * z;
+		movement.y = 0;
+		movement = Vector3.Normalize(movement);
         targetObjectToMove.gameObject.transform.Translate(movement * moveSpeed * Time.deltaTime);
     }
 }
