@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class PlayerInputController : MonoBehaviour
 {
-    public float moveSpeed = 10;
+    public float moveSpeed = 3;
     public GameObject targetObjectToMove;
-    [SerializeField] float mouseSens = 100f;
-    float xRotation = 0f;
+    
     public void moveFoward() 
     {
         Vector3 movement = new Vector3(1, 0, 1);

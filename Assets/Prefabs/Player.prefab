@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 80aa2eb2-af2f-40a9-ad9e-18044ce65bee
-  instanceId: 861524c6-b000-4a30-a9fd-b8ef9f2017f3
+  instanceId: e8083ddd-f22b-4f14-87dc-885a2f278369
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -2296,7 +2296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 81f55626-5fad-45e9-a1df-184f330da7ba
-  instanceId: e78ec577-e5b0-412b-8808-eddb98cb02d4
+  instanceId: 32a15e6b-14fa-4a71-ab83-5779c7c6ce83
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -2875,7 +2875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 8b26b298-7bf4-490e-b245-a039c0184303
-  instanceId: 148fbc17-e426-430e-a54f-047012b3e6e3
+  instanceId: ce0b5691-6caf-429b-ac2a-b51a3eabda21
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -4750,6 +4750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   targetObjectToMove: {fileID: 7025639940891883353}
+  mouseSens: 100
 --- !u!1 &2324770818085745147
 GameObject:
   m_ObjectHideFlags: 0
@@ -7901,7 +7902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 8b26b298-7bf4-490e-b245-a039c0184303
-  instanceId: f71e13a4-dc3b-4cee-9813-fcdc37ec86a2
+  instanceId: e0dea305-c28f-410e-b6b4-26bfef19ad04
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -10162,7 +10163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 85906e61-05be-4ea9-bfa6-139215b858df
-  instanceId: 149f7c35-33a0-4023-8087-d7e711d987f3
+  instanceId: 935f0d81-55a2-4f0d-a391-cc22f81f907f
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 5c49fca3-fb86-46fe-8728-fe25eb009af8
@@ -10367,7 +10368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: e47682b9-c270-40b1-b16d-90b627a5ce1b
-  instanceId: 2555fcd8-d879-4898-aa14-e88e7a488b77
+  instanceId: 8aac4538-354a-4156-b968-4cc68a5e0a9f
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -11441,8 +11442,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cb803d0db0bb3c45a8d4beebb2469ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  moveSpeed: 3
   targetObjectToMove: {fileID: 7025639940891883353}
+  mouseSens: 100
 --- !u!1 &5529124845211139868
 GameObject:
   m_ObjectHideFlags: 0
@@ -11873,7 +11875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 5817f7c0-f2a5-45f9-a5ca-64264e0166e8
-  instanceId: ee20ec8f-a21c-4b6d-9fd8-021d137f3068
+  instanceId: 62b05a7a-b190-4940-b890-1a5d7dadcb23
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -12278,7 +12280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 5817f7c0-f2a5-45f9-a5ca-64264e0166e8
-  instanceId: db258e29-1c84-4b81-a385-2319e8dca2a0
+  instanceId: e4fd31de-3315-4438-bdc6-0d2fc0a85d8a
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -13941,7 +13943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: f10154e0-16b2-492f-97d0-6639f69e7df6
-  instanceId: 96fcc4f9-52e8-4be7-939a-d9c46c75e1fa
+  instanceId: 960d403f-46a8-4da6-b939-bbc87ef0aa4f
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -15044,6 +15046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   targetObjectToMove: {fileID: 7025639940891883353}
+  mouseSens: 100
 --- !u!1 &7534865046859409205
 GameObject:
   m_ObjectHideFlags: 0
@@ -15732,7 +15735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 85906e61-05be-4ea9-bfa6-139215b858df
-  instanceId: 53621871-cb85-43a2-a07a-6d830841b667
+  instanceId: 8c0bda02-3ea3-40e6-bc52-54168eaca1e4
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 5c49fca3-fb86-46fe-8728-fe25eb009af8
