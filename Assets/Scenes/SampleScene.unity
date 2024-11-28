@@ -265,6 +265,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5509663684495618546, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
   m_PrefabInstance: {fileID: 3711244533456815608}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &524634665 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 809861837116429656, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+  m_PrefabInstance: {fileID: 3711244533456815608}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524634663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb803d0db0bb3c45a8d4beebb2469ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &612762148
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,6 +740,34 @@ PrefabInstance:
     - target: {fileID: 5219859789866779556, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340425365978054124, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: _buttonClickActions.Array.data[0].Title
+      value: Deactivate
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340425365978054124, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: _buttonClickActions.Array.data[0].Button
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340425365978054124, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: _buttonClickActions.Array.data[0].Callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340425365978054124, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: _buttonClickActions.Array.data[0].Callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 524634665}
+    - target: {fileID: 5340425365978054124, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: _buttonClickActions.Array.data[0].Callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToggleMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340425365978054124, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: _buttonClickActions.Array.data[0].Callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerInputController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340425365978054124, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
+      propertyPath: _buttonClickActions.Array.data[0].Callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5972521606322136080, guid: 7f7d1339fa2eb184f8fb6c3547ba3912, type: 3}
       propertyPath: m_LocalPosition.x

@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 80aa2eb2-af2f-40a9-ad9e-18044ce65bee
-  instanceId: 46440202-9340-43a9-9463-95f779cca4f0
+  instanceId: 7ee7151f-83c0-4b30-824a-795e44d3283f
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -64,15 +64,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _buttonClickActions:
-  - Title: Move Forward
-    Button: 65536
+  - Title: ToggleMap
+    Button: 1
     ButtonMode: 1
     Callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 809861837116429656}
           m_TargetAssemblyTypeName: PlayerInputController, Assembly-CSharp
-          m_MethodName: moveFoward
+          m_MethodName: ToggleMap
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2296,7 +2296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 81f55626-5fad-45e9-a1df-184f330da7ba
-  instanceId: c5390307-8efd-4edd-aa63-af60fedae455
+  instanceId: 389bc572-3335-450d-a4ed-ea90cc211796
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -2875,7 +2875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 8b26b298-7bf4-490e-b245-a039c0184303
-  instanceId: d541d6b0-437b-4c71-89a5-65034be1897d
+  instanceId: b277cdab-ca69-4034-8168-8e388461d2b7
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -7803,7 +7803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 8b26b298-7bf4-490e-b245-a039c0184303
-  instanceId: 702e7b54-53f1-499e-b258-48b47ebf554b
+  instanceId: 0753053f-a9b9-4e16-a930-4bcd11dd407b
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -10064,7 +10064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 85906e61-05be-4ea9-bfa6-139215b858df
-  instanceId: b47b5e65-a5c9-41f6-9a5f-3d7ba674b5db
+  instanceId: 8665e6a5-73b8-46a1-b4a4-05e749a74fcb
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 5c49fca3-fb86-46fe-8728-fe25eb009af8
@@ -10269,7 +10269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: e47682b9-c270-40b1-b16d-90b627a5ce1b
-  instanceId: d6231737-1f15-46d0-896f-02efc576f03e
+  instanceId: 3429c146-f9a3-4ee0-b83d-d68352719feb
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -11345,6 +11345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   targetObjectToMove: {fileID: 7025639940891883353}
+  mapPrefab: {fileID: 6231692149575751976}
 --- !u!1 &5529124845211139868
 GameObject:
   m_ObjectHideFlags: 0
@@ -11775,7 +11776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 5817f7c0-f2a5-45f9-a5ca-64264e0166e8
-  instanceId: b79c4ad6-3b33-4093-8751-f4202cf4ea35
+  instanceId: 89ea0ab3-ec33-4413-83b2-df5e32a7e5c9
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -12180,7 +12181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 5817f7c0-f2a5-45f9-a5ca-64264e0166e8
-  instanceId: 8232fc8f-4eae-4555-bc3f-c13f3531f6ea
+  instanceId: 41344cdf-b18f-4342-8492-520727fac83b
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -13843,7 +13844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: f10154e0-16b2-492f-97d0-6639f69e7df6
-  instanceId: 955822a2-224c-4d3d-b420-a3c089bf49f4
+  instanceId: ca3853a4-8df8-4316-b59c-c8cc1ad83801
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 
@@ -14945,6 +14946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   targetObjectToMove: {fileID: 7025639940891883353}
+  mapPrefab: {fileID: 0}
 --- !u!1 &7534865046859409205
 GameObject:
   m_ObjectHideFlags: 0
@@ -15633,7 +15635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: 85906e61-05be-4ea9-bfa6-139215b858df
-  instanceId: ce479fec-6f93-41e3-802a-9108d4a82d75
+  instanceId: efedb94a-ab59-4fb5-8589-af6ec8efe182
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: 5c49fca3-fb86-46fe-8728-fe25eb009af8
