@@ -6,7 +6,7 @@ public class PlayerInputController : MonoBehaviour
 {
     public float moveSpeed = 3;
     public GameObject targetObjectToMove;
-    public GameObject mapPrefab;
+    public GameObject mapObject;
 
     public void MoveFoward() 
     {
@@ -22,10 +22,13 @@ public class PlayerInputController : MonoBehaviour
 		movement.y = 0;
 		movement = Vector3.Normalize(movement);
         targetObjectToMove.gameObject.transform.Translate(movement * moveSpeed * Time.deltaTime);
+
+        //mapObject.transform.localRotation = Quaternion.Euler(-this.gameObject.transform.rotation.eulerAngles);
+
     }
 
     public void ToggleMap()
     {
-        mapPrefab.SetActive(!mapPrefab.activeSelf);
+        mapObject.SetActive(!mapObject.activeSelf);
     }
 }
