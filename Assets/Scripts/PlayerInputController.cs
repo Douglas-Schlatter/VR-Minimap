@@ -7,6 +7,7 @@ public class PlayerInputController : MonoBehaviour
     public float moveSpeed = 3;
     public GameObject targetObjectToMove;
     public GameObject mapObject;
+    public bool matchRotation = true;
 
     public void MoveFoward() 
     {
@@ -24,12 +25,19 @@ public class PlayerInputController : MonoBehaviour
         targetObjectToMove.gameObject.transform.Translate(movement * moveSpeed * Time.deltaTime);
 
         // old mapObject.transform.localRotation = Quaternion.Euler(-this.gameObject.transform.rotation.eulerAngles);
-        mapObject.transform.localRotation = Quaternion.Euler(new Vector3 (0, -this.gameObject.transform.rotation.eulerAngles.y , 0));
-
+        if (matchRotation)
+        {
+            mapObject.transform.localRotation = Quaternion.Euler(new Vector3(0, -this.gameObject.transform.rotation.eulerAngles.y, 0));
+        }
     }
 
     public void ToggleMap()
     {
         mapObject.SetActive(!mapObject.activeSelf);
+    }
+
+    public void ToggleMatchRotation()
+    {
+        matchRotation = !matchRotation;
     }
 }
