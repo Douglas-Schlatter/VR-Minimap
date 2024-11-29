@@ -23,7 +23,8 @@ public class PlayerInputController : MonoBehaviour
 		movement = Vector3.Normalize(movement);
         targetObjectToMove.gameObject.transform.Translate(movement * moveSpeed * Time.deltaTime);
 
-        //mapObject.transform.localRotation = Quaternion.Euler(-this.gameObject.transform.rotation.eulerAngles);
+        // old mapObject.transform.localRotation = Quaternion.Euler(-this.gameObject.transform.rotation.eulerAngles);
+        mapObject.transform.localRotation = Quaternion.Euler(new Vector3 (0, -this.gameObject.transform.rotation.eulerAngles.y , 0));
 
     }
 

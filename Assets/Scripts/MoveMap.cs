@@ -17,7 +17,7 @@ public class MoveMap : MonoBehaviour
     void Update()
     {
         targetTransform = this.gameObject.transform;
-        targetTransform.position = new Vector3(player.transform.position.x, 0, player.transform.position.z) * -scale;
+        targetTransform.position = new Vector3(player.transform.position.x, player.transform.position.y / 2, player.transform.position.z) * -scale;
         this.gameObject.transform.localPosition = targetTransform.position;
 
     }
