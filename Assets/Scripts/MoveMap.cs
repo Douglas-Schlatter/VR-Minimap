@@ -14,7 +14,7 @@ public class MoveMap : MonoBehaviour
 	
     void Start()
     {
-		Vector3 initialPos = player.transform.position;
+		initialPos = player.transform.position;
     }
 
     // Update is called once per frame
