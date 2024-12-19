@@ -18,4 +18,11 @@ public class mapInteractions : MonoBehaviour
 	public void parentChange() {
 		mapa.parent = cam;
 	}
+	
+	public void mapReset() {
+		mapa.parent = controle;
+		mapa.localPosition = Vector3.zero;
+		mapa.localEulerAngles = Vector3.zero;
+		mapa.localScale = Vector3.one;
+	}
 }

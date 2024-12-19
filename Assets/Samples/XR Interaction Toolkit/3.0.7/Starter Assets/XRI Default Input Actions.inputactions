@@ -1961,7 +1961,7 @@
                     "name": "Activate",
                     "type": "Button",
                     "id": "41976d89-60de-4deb-bff9-16b4af96b290",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -2060,6 +2060,15 @@
                     "name": "ToggleMatchRotation",
                     "type": "Button",
                     "id": "302bed05-0e43-4396-9706-6ea7f3a9f90d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ResetMap",
+                    "type": "Button",
+                    "id": "37465fed-680f-4ebd-80b9-23274c08c8b6",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -2372,6 +2381,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "ToggleMatchRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "65de94c1-d82b-4123-9fbe-f95e1aa6ac3a",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetMap",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
