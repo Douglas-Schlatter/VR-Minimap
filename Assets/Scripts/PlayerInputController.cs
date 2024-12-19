@@ -16,6 +16,7 @@ public class PlayerInputController : MonoBehaviour
     }
     public void Update()
     {
+        /*
         float x = Input.GetAxis("Vertical");
         float z = Input.GetAxis("Horizontal");
 
@@ -23,7 +24,7 @@ public class PlayerInputController : MonoBehaviour
 		movement.y = 0;
 		movement = Vector3.Normalize(movement);
         targetObjectToMove.gameObject.transform.Translate(movement * moveSpeed * Time.deltaTime);
-
+        */
         // old mapObject.transform.localRotation = Quaternion.Euler(-this.gameObject.transform.rotation.eulerAngles);
         if (matchRotation)
         {
