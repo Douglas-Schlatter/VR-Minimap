@@ -9,12 +9,16 @@ public class PlayerInputController : MonoBehaviour
     public float moveSpeed = 3;
     public GameObject targetObjectToMove;
     public GameObject mapObject;
+    public GameObject mapHolder;
     public bool matchRotation = true;
     public XRController rController;
+    public Transform controle;
     //Input Related
     public InputActionReference inputToggleMap;
 
     public InputActionReference inputToggleMatchRotation;
+
+    public InputActionReference inputMapFullReset;
 
     public void Awake()
     {
@@ -23,6 +27,9 @@ public class PlayerInputController : MonoBehaviour
 
         inputToggleMatchRotation.action.Enable();
         inputToggleMatchRotation.action.performed += ToggleMatchRotation;
+
+        inputMapFullReset.action.Enable();
+        inputMapFullReset.action.performed += MapFullReset;
     }
     public void MoveFoward() 
     {
@@ -57,6 +64,14 @@ public class PlayerInputController : MonoBehaviour
     {
         matchRotation = !matchRotation;
     }
+
+    public void MapFullReset(InputAction.CallbackContext context)
+    {
+        mapHolder.transform.parent = controle;
+        mapHolder.transform.localPosition = Vector3.zero;
+        mapHolder.transform.localEulerAngles = Vector3.zero;
+        mapHolder.transform.localScale = Vector3.one;
+    }
     public void OnDeviceChange(InputDevice device, InputDeviceChange change)
     {
         switch (change)
@@ -69,6 +84,9 @@ public class PlayerInputController : MonoBehaviour
 
                 inputToggleMatchRotation.action.Disable();
                 inputToggleMatchRotation.action.performed -= ToggleMatchRotation;
+
+                inputMapFullReset.action.Disable();
+                inputMapFullReset.action.performed -= MapFullReset;
                 break;
             case InputDeviceChange.Reconnected:
                 inputToggleMap.action.Enable();
@@ -77,6 +95,10 @@ public class PlayerInputController : MonoBehaviour
 
                 inputToggleMatchRotation.action.Enable();
                 inputToggleMatchRotation.action.performed += ToggleMatchRotation;
+
+
+                inputMapFullReset.action.Enable();
+                inputMapFullReset.action.performed += MapFullReset;
                 break;
             default:
                 break;
